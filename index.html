@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+<title>Pr0xe</title>
+    <meta charset="utf-8">
+    <meta name=”viewport” content=”width=device-width, initial-scale=1″>
+    <meta name="description" content="Welcome to Pr0xe's page">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link href="hover.css" rel="stylesheet" media="all">
+
+<script>
+	(function titleScroller(text) {
+    document.title = text;
+    setTimeout(function () {
+        titleScroller(text.substr(1) + text.substr(0, 1));
+    }, 1000);
+}(" Pr0xe "));
+document.addEventListener('contextmenu', event => event.preventDefault());
+</script>
+<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+
+</head>
+<body>
+    <div class="container">
+    <h1 class="intro-text" style="font-family:Montserrat;">Hello!</h1>
+    <span class="sep"></span><br>
+    <span class="links">
+    <a href="https://twitter.com/Pr0xe_NET" target="_blank" class="hvr-pulse-grow">Twitter</a> <span class="sep"> | </span>
+    <a href="https://github.com/Pr0xe" target="_blank" class="hvr-pulse-grow">GitHub</a> <span class="sep"> | </span>
+    <a href="https://gitlab.com/Pr0xe" target="_blank" class="hvr-pulse-grow">GitLab</a>
+    <br><br>
+    </div>
+</body>
+</html>
